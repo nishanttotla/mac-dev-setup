@@ -27,6 +27,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Node.js](#nodejs)
 - [JSHint](#jshint)
 - [Ruby and RVM](#ruby-and-rvm)
+- [Java](#java)
 - [LESS](#less)
 - [Heroku](#heroku)
 - [MongoDB](#mongodb)
@@ -654,6 +655,15 @@ RubyGems keeps old versions of gems, so feel free to do come cleaning after upda
 I mainly use Ruby for the CSS pre-processor [Compass](http://compass-style.org/), which is built on top of [Sass](http://sass-lang.com/):
 
     $ gem install compass --no-document
+
+## Java
+
+Install the latest version of Java using `brew cask`, then use that to install Java as follows:
+
+    $ brew install caskroom/cask/brew-cask
+    $ brew cask install java 
+
+This is a large download that might stop if there are network issues, so restart using the second command if necessary.
 
 ## LESS
 

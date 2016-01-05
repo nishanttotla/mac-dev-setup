@@ -71,6 +71,8 @@ In the tab **Profiles**, create a new one with the "+" icon, and rename it to yo
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
+Finally, follow instructions [here](http://elweb.co/making-iterm-2-work-with-normal-mac-osx-keyboard-shortcuts/) to set some of the normal text navigation behavior within iTerm.
+
 ## Homebrew
 
 Package managers make it so much easier to install and update applications (for Operating Systems) or libraries (for programming languages). The most popular one for OS X is [Homebrew](http://brew.sh/).

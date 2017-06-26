@@ -70,7 +70,7 @@ In the tab **Profiles**, create a new one with the "+" icon, and rename it to yo
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
-Finally, to make life easier (i.e. make iTerm use standard OSX default behavior for deleting words and lines), follow instructions [here](https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2) to add a couple of keyboard shortcuts.
+Finally, follow instructions [here](http://elweb.co/making-iterm-2-work-with-normal-mac-osx-keyboard-shortcuts/) and [here](https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2) to set some of the normal text navigation behavior within iTerm.
 
 ## Homebrew
 
@@ -213,6 +213,17 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
 
+<<<<<<< HEAD
+=======
+Finally, it's really useful to be able to autocomplete Git commands and branch names, because they can get long. Follow instructions [here](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion) to set this up. The link asks you to source the the file using `.bashrc`, but that doesn't work on the Mac, so remember to include the following lines at the end of your `.bash_profile` file.
+```
+if [ -s ~/.bashrc ]; then
+    source ~/.bashrc;
+fi
+```
+Open a new terminal tab, and Git will now autocomplete commands, options, and branch names too!
+
+>>>>>>> 167b019a486ec277e87385bffd536a42ef66bbb4
 ## Sublime Text
 
 With the terminal, the text editor is a developer's most important tool. Everyone has their preferences, but unless you're a hardcore [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)) user, a lot of people are going to tell you that [Sublime Text](http://www.sublimetext.com/) is currently the best one out there.
